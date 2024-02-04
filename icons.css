@@ -1,3 +1,4 @@
 .icon-pencil:before{
-  content: url('svgs/pencil.svg');
+  background: url('svgs/pencil.svg');
+  background-size: contain;
 }
