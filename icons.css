@@ -1,6 +1,7 @@
-.icon-pencil:before{
+.icon-pencil{
   content: "";
   display: inline-block;
   background: url('svgs/pencil.svg');
   background-size: contain;
+  background-repeat: no-repeat;
 }
