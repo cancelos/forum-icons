@@ -28,12 +28,12 @@
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  padding: 20px 0;
 }
 
 #skcabecera{
   width: 80%;
   margin: 0 auto;
-  margin-top: 10px;
   height: 100px;
   line-height: 40px;
   display: flex;
@@ -103,7 +103,8 @@
   background: black;
   display: flex;
   flex-direction: column;
-  
+  justify-content: space-around;
+  align-items: center;
 }
 
 .skmembercard:hover .skcardinfo{
