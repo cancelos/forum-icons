@@ -8,8 +8,12 @@
   src: url(../webfonts/WesternBangBang.ttf);
 }
 
+:root{
+  --skcolor1: #e3d4b2;
+}
+
 #skcontainer{
-  width: 80%;
+  width: 90%;
   background: red;
   padding: 10px;
   box-sizing: border-box;
@@ -31,9 +35,10 @@
   height: 100px;
   line-height: 40px;
   display: flex;
-  flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  background: var(--skcolor1);
 }
 
 #sktitulo{
@@ -53,7 +58,7 @@
 }
 
 #skjolly img{
-  width: 100px;
+  width: 200px;
 }
 
 #skcuerpo{
@@ -74,16 +79,16 @@
 
 .skmembercard{
   position: relative;
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
 }
 .skmembercard img{
-  width: 150px;
+  width: 200px;
 }
 
 .skcardinfo{
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   opacity: 0;
   position: absolute;
   top: 0;
