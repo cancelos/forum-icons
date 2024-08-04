@@ -1,6 +1,11 @@
 @font-face {
   font-family: gabriola;
-  src: url(../webfonts/Gabriola.woff);
+  src: url(../webfonts/Gabriola.ttf);
+}
+
+@font-face {
+  font-family: westernbb;
+  src: url(../webfonts/WesternBangBang.ttf);
 }
 
 #skcontainer{
@@ -32,7 +37,18 @@
 }
 
 #sktitulo{
+  font-size: 3em;
+  font-family: gabriola;
+  color: black;
+  font-weight: bold;
+}
+
+#sktitulo2{
   font-size: 2em;
+  font-family: westernbb;
+  color: black;
+  font-weight: bold;
+  text-align: center;
 }
 
 #skjolly img{
