@@ -37,7 +37,7 @@
 }
 
 #sktitulo{
-  font-size: 3em;
+  font-size: 2.7em;
   font-family: gabriola;
   color: black;
   font-weight: bold;
@@ -61,4 +61,30 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.skcuerpocontainer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.skmembercard{
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.skcardinfo{
+  width: 100px;
+  height: 100px;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.skmembercard:hover .skcardinfo{
+  opacity: 1;
 }
