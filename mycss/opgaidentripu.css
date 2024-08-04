@@ -68,23 +68,32 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
+  width: 80%;
+  margin-top: 15px;
 }
 
 .skmembercard{
   position: relative;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
+}
+.skmembercard img{
+  width: 150px;
 }
 
 .skcardinfo{
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   opacity: 0;
   position: absolute;
   top: 0;
   left: 0;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  
 }
 
 .skmembercard:hover .skcardinfo{
-  opacity: 1;
+  opacity: .8;
 }
