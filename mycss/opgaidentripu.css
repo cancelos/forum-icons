@@ -59,6 +59,10 @@
   border-bottom: 1px solid brown;
 }
 
+#skjolly{
+  border: 10px solid red;
+}
+
 #skjolly img{
   width: 200px;
 }
