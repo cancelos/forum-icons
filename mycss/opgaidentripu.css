@@ -43,14 +43,20 @@
   font-weight: bold;
 }
 
-#sktitulo2{
+.sktitulo2{
   font-size: 2em;
   font-family: westernbb;
   color: black;
   font-weight: bold;
   text-align: center;
+  border-bottom: 1px solid brown;
 }
 
 #skjolly img{
   width: 100px;
+}
+
+.skcuerpo{
+  box-sizing: border-box;
+  
 }
